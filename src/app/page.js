@@ -61,7 +61,7 @@ export default function Home() {
   };
 
   const handleShareDemo = () => {
-    const demoUrl = window.location.href;
+    const demoUrl = "https://evm-machine-liart.vercel.app/";
     if (navigator.share) {
       navigator
         .share({
